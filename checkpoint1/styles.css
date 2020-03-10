@@ -1,8 +1,25 @@
+/*
+font-family: 'Montserrat', ;
+font-family: 'Noto Serif', ;
+*/
+.clearfix {
+          overflow: auto;
+}
+body {
+      font-family: "Noto Serif" , serif;
+      max-width: 70%;
+      margin: 50px auto;
+}
+
+a {
+  color: #33485e;
+}
 h1 {
     color: #33485e;
     text-transform: uppercase;
-    font-family: sans-serif;
+    font-family: "Montserrat" , sans-serif;
     letter-spacing: 2px;
+    font-weight: lighter;
 }
 
 #header {
@@ -10,6 +27,7 @@ h1 {
           border-bottom: 1px solid #999;
           width: 70%;
           margin: 0 auto 20px;
+          font-size: 16px;
 }
 
 #header p {
@@ -18,8 +36,66 @@ h1 {
           font-weight: bold;
 }
 
+.header-name {
+    border-bottm: 1px solid #999;
+    margin-bottom: 20px;
+}
+
+.introduction {
+              color: #000000;
+              font-family: "Noto Serif" , serif;
+}
+
+h2 , .highlight {
+    color: white;
+    background-color: #33485e;
+    padding: 2px 5px;
+}
+
+#social ul{
+          list-style-type: none;
+          text-align: center;
+
+}
+
+#social ul li{
+            display: inline-block;
+}
+
+#social ul li::after {
+          content: "|";
+          padding: 6px;
+}
+
+#social ul li:last-child::after {
+          content: "";
+}
+
 img {
     max-width: 600px;
     width: 33%;
     float: right;
+    margin: 10px
+
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: "Montserrat" , sans-serif;
+}
+
+h3, h4, h5 {
+            margin: 5px;
+}
+h5{
+  font-weight: lighter;
+  font-style: italic;
+}
+
+p {
+  font-family: "Noto Serif" , serif;
+}
+
+.jobdes {
+            border-bottom: 1px solid #999;
+
 }
