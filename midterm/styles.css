@@ -6,7 +6,7 @@ h1 {
     font-size: 40px;
 }
 
-.topimg {
+.topimg , .crane {
     max-width: 100px;
     width: 300%;
     max-height: 200px;
@@ -29,7 +29,33 @@ h6 {
 
       }
 
-img {
+      .column {
+        float: left;
+        width: 50%;
+        padding: 5px;
+      }
+
+      .row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+.blockquote {
+        display: block;
+        margin-top: 30px;
+        margin-bottom: 30px;
+        margin-left: 40px;
+        margin-right: 40px;
+        background-color: #000066;
+        color: #ffffff;
+        font-weight: lighter;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        width: 400px;
+        text-align: center;
+      }
+
+.firstgraphic {
   max-width: 600px;
   width: 100%
   margin: 45px;
