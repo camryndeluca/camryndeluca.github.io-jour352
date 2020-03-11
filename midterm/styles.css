@@ -2,6 +2,10 @@
     font-family:"DM Serif Display", serif;
 }
 
+.topimg {
+  height: 200px;
+  max-width: 50%
+}
 
 .article {
         font-family: "Noto Sans" , "Ariel" , "Helvetica" sans-serif;
