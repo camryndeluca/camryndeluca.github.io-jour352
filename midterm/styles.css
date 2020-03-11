@@ -6,6 +6,12 @@ h1 {
     font-size: 40px;
 }
 
+.topimg {
+    max-width: 600px;
+    width: 100%;
+    margin: 15px;
+    display: block;
+}
 
 .article {
         font-family:"Noto Sans" , "Ariel" , "Helvetica" sans-serif;
