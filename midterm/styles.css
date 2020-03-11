@@ -7,10 +7,16 @@ h1 {
 }
 
 .topimg {
-    max-width: 600px;
-    width: 100%;
+    max-width: 100px;
+    width: 300%;
+    max-height: 200px;
+    height: 400%;
     margin: 15px;
     display: block;
+}
+
+h6 {
+  margin-left: 15px;
 }
 
 .article {
@@ -22,6 +28,13 @@ h1 {
         padding-right: 30px;
 
       }
+
+img {
+  max-width: 600px;
+  width: 100%
+  margin: 45px;
+  display: block;
+}
 
 .interstitial {
           font-style: italic;
