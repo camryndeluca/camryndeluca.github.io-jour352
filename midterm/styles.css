@@ -1,10 +1,17 @@
-.headline {
+.headline , h3 , h4 {
     font-family:"DM Serif Display", serif;
 }
 
 .topimg {
-  height: 200px;
-  max-width: 50%
+  height: 20px;
+  max-width: 600px;
+  width: 100%;
+  margin: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 100px;
+  padding-bottom: 100px;
+
 }
 
 .article {
