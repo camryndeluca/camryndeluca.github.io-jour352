@@ -1,68 +1,60 @@
 .headline , h3 , h4 {
-    font-family:"DM Serif Display", serif;
+     font-family:"DM Serif Display", serif;
 }
-
-h1 {
-    font-size: 40px;
+ h1 {
+     font-size: 40px;
 }
-
 /*Hello, here is my comment in css.*/
-.topimg , .crane , .windows {
-    max-width: 100px;
-    width: 300%;
-    max-height: 500px;
-    height: 400%;
-    margin: 15px;
-    display: block;
+ .topimg , .crane , .windows {
+     max-width: 600px;
+     width: 100%;
+     margin: 10px;
+     display: block;
+}
+ h6 {
+     margin-left: 15px;
+}
+ .article {
+     font-family:"Noto Sans" , "Ariel" , "Helvetica" sans-serif;
+     font-size: 16px;
+     margin-left: 50px;
+     margin-right: 50px;
+     padding-left: 30px;
+     padding-right: 30px;
+}
+ .column {
+     float: left;
+     width: 43%;
+     padding: 25px;
+}
+ .row::after {
+     content: "";
+     clear: both;
+     display: table;
 }
 
-h6 {
-  margin-left: 15px;
+.left {
+
 }
-
-.article {
-        font-family:"Noto Sans" , "Ariel" , "Helvetica" sans-serif;
-        font-size: 16px;
-        margin-left: 50px;
-        margin-right: 50px;
-        padding-left: 30px;
-        padding-right: 30px;
-
-      }
-
-      .column {
-        float: left;
-        width: 50%;
-        padding: 5px;
-      }
-
-      .row::after {
-  content: "";
-  clear: both;
-  display: table;
+ .blockquote {
+     display: block;
+     margin-top: 30px;
+     margin-bottom: 30px;
+     margin-left: 40px;
+     margin-right: 40px;
+     background-color: #000066;
+     color: #ffffff;
+     font-weight: lighter;
+     padding-top: 20px;
+     padding-bottom: 20px;
+     width: 400px;
+     text-align: center;
 }
-.blockquote {
-        display: block;
-        margin-top: 30px;
-        margin-bottom: 30px;
-        margin-left: 40px;
-        margin-right: 40px;
-        background-color: #000066;
-        color: #ffffff;
-        font-weight: lighter;
-        padding-top: 20px;
-        padding-bottom: 20px;
-        width: 400px;
-        text-align: center;
-      }
-
-.firstgraphic {
-  max-width: 600px;
-  width: 100%
-  margin: 45px;
-  display: block;
+ .firstgraphic {
+     max-width: 600px;
+     width: 100% margin: 45px;
+     display: block;
 }
-
-.interstitial {
-          font-style: italic;
+ .interstitial {
+     font-style: italic;
 }
