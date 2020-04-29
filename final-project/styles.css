@@ -8,6 +8,8 @@ body {
 
 p {
   font-family: 'Crimson Text', serif;
+  padding-left: 10px;
+  margin-left: 15px;
 }
 .firstpic {
           width: 100%;
