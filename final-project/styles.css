@@ -1,10 +1,9 @@
 h2 {
     font-family: 'Signika', sans-serif;
-    color: #CBFFF7;
 }
 
 body {
-      color: #CBFFF7;
+      background-color: #CBFFF7;
 }
 
 p {
@@ -16,4 +15,8 @@ p {
           left: 0px;
           right: 0px;
           display: block;
+}
+
+.scootergif {
+          padding-left: 400px;
 }
