@@ -1,24 +1,39 @@
-h2 {
-    font-family: 'Signika', sans-serif;
+h2 , h6 {
+     font-family: 'Signika', sans-serif;
 }
-
-body {
-      background-color: #CBFFF7;
+ body {
+     background-color: #E1F3FF;
 }
-
-p {
-  font-family: 'Crimson Text', serif;
-  padding-left: 10px;
-  margin-left: 15px;
+ .title {
+     margin-left: 10px;
 }
-.firstpic {
-          width: 100%;
-          height: auto;
-          left: 0px;
-          right: 0px;
-          display: block;
+ h4 {
+     font-family: 'Crimson Text', serif;
 }
-
-.scootergif {
-          padding-left: 400px;
+ p {
+     font-family: 'Crimson Text', serif;
+     padding-left: 10px;
+     margin-left: 15px;
+}
+ .firstpic {
+     width: 100%;
+     height: auto;
+     left: 0px;
+     right: 0px;
+     display: block;
+}
+ h6 {
+     margin-top: 12px;
+}
+ .gif {
+     float: right;
+     max-width: 400px;
+     margin-left: 15px;
+}
+ .content {
+     width: 80%;
+     margin: 0 auto;
+}
+ a {
+     color: #3ab28f;
 }
